@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		D50E13651C570A400008EF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D50E13641C570A400008EF51 /* main.m */; };
 		D50E13681C570A400008EF51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D50E13671C570A400008EF51 /* AppDelegate.m */; };
-		D50E136B1C570A400008EF51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50E136A1C570A400008EF51 /* ViewController.m */; };
-		D50E136E1C570A400008EF51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50E136C1C570A400008EF51 /* Main.storyboard */; };
 		D50E13701C570A400008EF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50E136F1C570A400008EF51 /* Assets.xcassets */; };
 		D50E13731C570A400008EF51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50E13711C570A400008EF51 /* LaunchScreen.storyboard */; };
 		D50E137E1C570A400008EF51 /* _0160126001_UINavigationController_NavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D50E137D1C570A400008EF51 /* _0160126001_UINavigationController_NavigationBarTests.m */; };
 		D50E13891C570A410008EF51 /* _0160126001_UINavigationController_NavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D50E13881C570A410008EF51 /* _0160126001_UINavigationController_NavigationBarUITests.m */; };
+		D50E13991C570CB30008EF51 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50E13971C570CB30008EF51 /* OneViewController.m */; };
+		D50E139A1C570CB30008EF51 /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50E13981C570CB30008EF51 /* OneViewController.xib */; };
+		D50E139E1C570DEB0008EF51 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50E139C1C570DEB0008EF51 /* TwoViewController.m */; };
+		D50E139F1C570DEB0008EF51 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50E139D1C570DEB0008EF51 /* TwoViewController.xib */; };
+		D50E13A31C570EE70008EF51 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50E13A11C570EE70008EF51 /* ThreeViewController.m */; };
+		D50E13A41C570EE70008EF51 /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50E13A21C570EE70008EF51 /* ThreeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +43,6 @@
 		D50E13641C570A400008EF51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D50E13661C570A400008EF51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D50E13671C570A400008EF51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D50E13691C570A400008EF51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D50E136A1C570A400008EF51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D50E136D1C570A400008EF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D50E136F1C570A400008EF51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D50E13721C570A400008EF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D50E13741C570A400008EF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,15 @@
 		D50E13841C570A410008EF51 /* 20160126001-UINavigationController-NavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160126001-UINavigationController-NavigationBarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50E13881C570A410008EF51 /* _0160126001_UINavigationController_NavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160126001_UINavigationController_NavigationBarUITests.m; sourceTree = "<group>"; };
 		D50E138A1C570A410008EF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50E13961C570CB30008EF51 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		D50E13971C570CB30008EF51 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		D50E13981C570CB30008EF51 /* OneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
+		D50E139B1C570DEB0008EF51 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		D50E139C1C570DEB0008EF51 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		D50E139D1C570DEB0008EF51 /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		D50E13A01C570EE70008EF51 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		D50E13A11C570EE70008EF51 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		D50E13A21C570EE70008EF51 /* ThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +113,15 @@
 			children = (
 				D50E13661C570A400008EF51 /* AppDelegate.h */,
 				D50E13671C570A400008EF51 /* AppDelegate.m */,
-				D50E13691C570A400008EF51 /* ViewController.h */,
-				D50E136A1C570A400008EF51 /* ViewController.m */,
-				D50E136C1C570A400008EF51 /* Main.storyboard */,
+				D50E13961C570CB30008EF51 /* OneViewController.h */,
+				D50E13971C570CB30008EF51 /* OneViewController.m */,
+				D50E13981C570CB30008EF51 /* OneViewController.xib */,
+				D50E139B1C570DEB0008EF51 /* TwoViewController.h */,
+				D50E139C1C570DEB0008EF51 /* TwoViewController.m */,
+				D50E139D1C570DEB0008EF51 /* TwoViewController.xib */,
+				D50E13A01C570EE70008EF51 /* ThreeViewController.h */,
+				D50E13A11C570EE70008EF51 /* ThreeViewController.m */,
+				D50E13A21C570EE70008EF51 /* ThreeViewController.xib */,
 				D50E136F1C570A400008EF51 /* Assets.xcassets */,
 				D50E13711C570A400008EF51 /* LaunchScreen.storyboard */,
 				D50E13741C570A400008EF51 /* Info.plist */,
@@ -245,7 +261,9 @@
 			files = (
 				D50E13731C570A400008EF51 /* LaunchScreen.storyboard in Resources */,
 				D50E13701C570A400008EF51 /* Assets.xcassets in Resources */,
-				D50E136E1C570A400008EF51 /* Main.storyboard in Resources */,
+				D50E139A1C570CB30008EF51 /* OneViewController.xib in Resources */,
+				D50E13A41C570EE70008EF51 /* ThreeViewController.xib in Resources */,
+				D50E139F1C570DEB0008EF51 /* TwoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D50E136B1C570A400008EF51 /* ViewController.m in Sources */,
+				D50E13991C570CB30008EF51 /* OneViewController.m in Sources */,
 				D50E13681C570A400008EF51 /* AppDelegate.m in Sources */,
 				D50E13651C570A400008EF51 /* main.m in Sources */,
+				D50E139E1C570DEB0008EF51 /* TwoViewController.m in Sources */,
+				D50E13A31C570EE70008EF51 /* ThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +328,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D50E136C1C570A400008EF51 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D50E136D1C570A400008EF51 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D50E13711C570A400008EF51 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

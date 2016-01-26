@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TwoViewController.h
 //  20160126001-UINavigationController-NavigationBar
 //
 //  Created by Rainer on 16/1/26.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TwoViewController : UIViewController
 
 @end
-
